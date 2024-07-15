@@ -1,7 +1,0 @@
-/home/d/sylar/cmake/CMakeFiles/sylar.dir
-/home/d/sylar/cmake/CMakeFiles/test_wss.dir
-/home/d/sylar/cmake/CMakeFiles/test_wsc.dir
-/home/d/sylar/cmake/CMakeFiles/test_app.dir
-/home/d/sylar/cmake/CMakeFiles/chat_app.dir
-/home/d/sylar/cmake/CMakeFiles/edit_cache.dir
-/home/d/sylar/cmake/CMakeFiles/rebuild_cache.dir
