@@ -1,5 +1,5 @@
 #include "sqlite3.h"
-#include "sylar/log.h"
+#include "../log.h"
 
 namespace sylar {
 
