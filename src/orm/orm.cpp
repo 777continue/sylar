@@ -25,8 +25,8 @@ int main(int argc, char** argv) {
         std::cout << "use as[" << argv[0] << " orm_config_path orm_output_path]" << std::endl;
     }
 
-    std::string out_path = "/home/d/blog/sylar/bin/orm_out";
-    std::string input_path = "/home/d/blog/sylar/bin/orm_conf";
+    std::string out_path = "/home/d/blog/orm_out";
+    std::string input_path = "/home/d/blog/orm_conf";
     if(argc > 1) {
         input_path = argv[1];
     }

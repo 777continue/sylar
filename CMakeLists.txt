@@ -134,6 +134,7 @@ sylar_add_executable(orm "${ORM_SRCS}" sylar "${LIBS}")
 sylar_add_executable(test_wss "test/test_ws_server.cpp" sylar "${LIBS}")
 sylar_add_executable(test_wsc "test/test_ws_client.cpp" sylar "${LIBS}")
 sylar_add_executable(test_app "test/test_application.cpp" sylar "${LIBS}")
+sylar_add_executable(test_sqlite3 "test/test_sqlite3.cpp" sylar "${LIBS}")
 
 
 

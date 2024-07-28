@@ -26,7 +26,7 @@
 //#include <google/protobuf/message.h>
 #include "utils/hash_util.h"
 #include "utils/json_util.h"
-//#include "sylar/util/crypto_util.h"
+//#include "utils/crypto_util.h"
 
 namespace sylar {
 
@@ -49,13 +49,17 @@ uint64_t GetCurrentMS();
  */
 uint64_t GetCurrentUS();
 
+//ToUpper
 std::string ToUpper(const std::string& name);
-
+//ToLower
 std::string ToLower(const std::string& name);
 
+//
 std::string Time2Str(time_t ts = time(0), const std::string& format = "%Y-%m-%d %H:%M:%S");
+//
 time_t Str2Time(const char* str, const char* format = "%Y-%m-%d %H:%M:%S");
 
+//FILE SYSTERM Util
 class FSUtil {
 public:
     static void ListAllFile(std::vector<std::string>& files
@@ -75,6 +79,7 @@ public:
     static bool OpenForWrite(std::ofstream& ofs, const std::string& filename
                     ,std::ios_base::openmode mode);
 };
+
 
 template<class V, class Map, class K>
 V GetParamValue(const Map& m, const K& k, const V& def = V()) {
@@ -103,6 +108,7 @@ bool CheckGetParamValue(const Map& m, const K& k, V& v) {
     return false;
 }
 
+//Type transition Util
 class TypeUtil {
 public:
     static int8_t ToChar(const std::string& str);

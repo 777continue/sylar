@@ -26,12 +26,19 @@ public:
         TYPE_INT64,
         TYPE_UINT64,
         TYPE_STRING,
-        TYPE_BLOB
+        TYPE_TEXT,
+        TYPE_BLOB,
+        TYPE_TIMESTAMP
     };
 
     const std::string& getName() const { return m_name;}
     const std::string& getType() const { return m_type;}
     const std::string& getDesc() const { return m_desc;}
+    const std::string& getDefault() const { return m_default;}
+
+    std::string getDefaultValueString();
+    std::string getSQLite3Default();
+
     bool isAutoIncrement() const { return m_autoIncrement;}
     Type getDType() const { return m_dtype;}
 
@@ -48,14 +55,22 @@ public:
 
     std::string getDTypeString() { return TypeToString(m_dtype);}
     std::string getSQLite3TypeString();
+    std::string getMySQLTypeString();
+
+    std::string getBindString();
+    std::string getGetString();
+    const std::string& getUpdate() const { return m_update;}
 private:
     std::string m_name;
     std::string m_type;
+    std::string m_default;
+    std::string m_update;
     std::string m_desc;
     int m_index;
 
     bool m_autoIncrement;
     Type m_dtype;
+    int m_length;
 };
 
 }

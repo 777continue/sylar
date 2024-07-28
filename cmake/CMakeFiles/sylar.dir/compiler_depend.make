@@ -14871,6 +14871,8 @@ CMakeFiles/sylar.dir/src/db/mysql.cpp.o: ../src/db/mysql.cpp \
   /usr/include/x86_64-linux-gnu/bits/indirect-return.h \
   /usr/include/x86_64-linux-gnu/sys/ucontext.h \
   /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  ../src/db/db.h \
+  ../src/singleton.h \
   ../src/log.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/istream \
@@ -15749,11 +15751,38 @@ CMakeFiles/sylar.dir/src/db/sqlite3.cpp.o: ../src/db/sqlite3.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  ../src/noncopyable.h \
-  ../src/log.h \
   /usr/include/c++/11/list \
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  ../src/noncopyable.h \
+  ../src/db/db.h \
+  ../src/mutex.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/semaphore.h \
+  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+  /usr/include/c++/11/atomic \
+  ../src/noncopyable.h \
+  ../src/fiber.h \
+  /usr/include/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/indirect-return.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  ../src/singleton.h \
+  ../src/log.h \
   /usr/include/c++/11/sstream \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/ios \
@@ -15788,11 +15817,6 @@ CMakeFiles/sylar.dir/src/db/sqlite3.cpp.o: ../src/db/sqlite3.cpp \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/erase_if.h \
   ../src/util.h \
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
@@ -15811,7 +15835,6 @@ CMakeFiles/sylar.dir/src/db/sqlite3.cpp.o: ../src/db/sqlite3.cpp \
   /usr/include/c++/11/iomanip \
   /usr/include/c++/11/locale \
   /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/ctime \
   /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/libintl.h \
@@ -15869,7 +15892,6 @@ CMakeFiles/sylar.dir/src/db/sqlite3.cpp.o: ../src/db/sqlite3.cpp \
   /usr/local/include/yaml-cpp/node/detail/node_ref.h \
   /usr/local/include/yaml-cpp/node/detail/node_data.h \
   /usr/local/include/yaml-cpp/node/convert.h \
-  /usr/include/c++/11/limits \
   /usr/local/include/yaml-cpp/node/detail/impl.h \
   /usr/local/include/yaml-cpp/node/parse.h \
   /usr/local/include/yaml-cpp/node/emit.h \
@@ -16246,8 +16268,6 @@ CMakeFiles/sylar.dir/src/db/sqlite3.cpp.o: ../src/db/sqlite3.cpp \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/std_function.h \
   /usr/include/boost/numeric/conversion/detail/converter.hpp \
   /usr/include/boost/numeric/conversion/bounds.hpp \
   /usr/include/boost/numeric/conversion/detail/bounds.hpp \
@@ -16453,21 +16473,16 @@ CMakeFiles/sylar.dir/src/db/sqlite3.cpp.o: ../src/db/sqlite3.cpp \
   ../src/singleton.h \
   ../src/thread.h \
   ../src/mutex.h \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/semaphore.h \
-  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
-  /usr/include/c++/11/atomic \
-  ../src/noncopyable.h \
-  ../src/fiber.h \
-  /usr/include/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/indirect-return.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h
+  ../src/config.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/unordered_set \
+  /usr/include/c++/11/bits/unordered_set.h \
+  ../src/log.h \
+  ../src/env.h
 
 CMakeFiles/sylar.dir/src/env.cpp.o: ../src/env.cpp \
   /usr/include/stdc-predef.h \
@@ -35087,6 +35102,8 @@ CMakeFiles/sylar.dir/src/zlib_stream.cpp.o: ../src/zlib_stream.cpp \
 
 /usr/include/linux/falloc.h:
 
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
 /usr/include/boost/type_traits/has_minus.hpp:
 
 /usr/include/boost/type_traits/has_plus_assign.hpp:
@@ -35747,6 +35764,8 @@ CMakeFiles/sylar.dir/src/zlib_stream.cpp.o: ../src/zlib_stream.cpp \
 
 /usr/include/boost/config/platform/linux.hpp:
 
+../src/db/db.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/boost/preprocessor/list/detail/fold_left.hpp:
@@ -35910,8 +35929,6 @@ CMakeFiles/sylar.dir/src/zlib_stream.cpp.o: ../src/zlib_stream.cpp \
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/boost/config/no_tr1/complex.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/fcntl.h:
 
 /usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
 

@@ -184,6 +184,19 @@ test_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_app.dir/build.make CMakeFiles/test_app.dir/build
 .PHONY : test_app/fast
 
+#=============================================================================
+# Target rules for targets named test_sqlite3
+
+# Build rule for target.
+test_sqlite3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_sqlite3
+.PHONY : test_sqlite3
+
+# fast build rule for target.
+test_sqlite3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sqlite3.dir/build.make CMakeFiles/test_sqlite3.dir/build
+.PHONY : test_sqlite3/fast
+
 http/http.o: http/http.cpp.o
 .PHONY : http/http.o
 
@@ -1384,6 +1397,30 @@ test/test_application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_app.dir/build.make CMakeFiles/test_app.dir/test/test_application.cpp.s
 .PHONY : test/test_application.cpp.s
 
+test/test_sqlite3.o: test/test_sqlite3.cpp.o
+.PHONY : test/test_sqlite3.o
+
+# target to build an object file
+test/test_sqlite3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sqlite3.dir/build.make CMakeFiles/test_sqlite3.dir/test/test_sqlite3.cpp.o
+.PHONY : test/test_sqlite3.cpp.o
+
+test/test_sqlite3.i: test/test_sqlite3.cpp.i
+.PHONY : test/test_sqlite3.i
+
+# target to preprocess a source file
+test/test_sqlite3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sqlite3.dir/build.make CMakeFiles/test_sqlite3.dir/test/test_sqlite3.cpp.i
+.PHONY : test/test_sqlite3.cpp.i
+
+test/test_sqlite3.s: test/test_sqlite3.cpp.s
+.PHONY : test/test_sqlite3.s
+
+# target to generate assembly for a file
+test/test_sqlite3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_sqlite3.dir/build.make CMakeFiles/test_sqlite3.dir/test/test_sqlite3.cpp.s
+.PHONY : test/test_sqlite3.cpp.s
+
 test/test_ws_client.o: test/test_ws_client.cpp.o
 .PHONY : test/test_ws_client.o
 
@@ -1443,6 +1480,7 @@ help:
 	@echo "... orm"
 	@echo "... sylar"
 	@echo "... test_app"
+	@echo "... test_sqlite3"
 	@echo "... test_wsc"
 	@echo "... test_wss"
 	@echo "... http/http.o"
@@ -1595,6 +1633,9 @@ help:
 	@echo "... test/test_application.o"
 	@echo "... test/test_application.i"
 	@echo "... test/test_application.s"
+	@echo "... test/test_sqlite3.o"
+	@echo "... test/test_sqlite3.i"
+	@echo "... test/test_sqlite3.s"
 	@echo "... test/test_ws_client.o"
 	@echo "... test/test_ws_client.i"
 	@echo "... test/test_ws_client.s"

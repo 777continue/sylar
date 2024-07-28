@@ -63,7 +63,7 @@ HttpRequest::ptr HttpSession::recvRequest() {
     }
 
     parser->getData()->init();
-    return parser->getData();
+    return parser->getData();	
 }
 
 int HttpSession::sendResponse(HttpResponse::ptr rsp) {

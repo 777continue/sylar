@@ -3,5 +3,6 @@
 /home/d/blog/sylar/cmake/CMakeFiles/test_wss.dir
 /home/d/blog/sylar/cmake/CMakeFiles/test_wsc.dir
 /home/d/blog/sylar/cmake/CMakeFiles/test_app.dir
+/home/d/blog/sylar/cmake/CMakeFiles/test_sqlite3.dir
 /home/d/blog/sylar/cmake/CMakeFiles/edit_cache.dir
 /home/d/blog/sylar/cmake/CMakeFiles/rebuild_cache.dir

@@ -63,4 +63,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_wss.dir/DependInfo.cmake"
   "CMakeFiles/test_wsc.dir/DependInfo.cmake"
   "CMakeFiles/test_app.dir/DependInfo.cmake"
+  "CMakeFiles/test_sqlite3.dir/DependInfo.cmake"
   )

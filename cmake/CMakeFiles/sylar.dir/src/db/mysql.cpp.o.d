@@ -170,6 +170,7 @@ CMakeFiles/sylar.dir/src/db/mysql.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/indirect-return.h \
  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+ /home/d/blog/sylar/src/db/db.h /home/d/blog/sylar/src/db/../singleton.h \
  /home/d/blog/sylar/src/db/../log.h /usr/include/c++/11/sstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/bits/ios_base.h \
