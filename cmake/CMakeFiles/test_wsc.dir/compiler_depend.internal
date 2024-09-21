@@ -6,7 +6,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o
  /usr/include/stdc-predef.h
  /home/d/blog/sylar/http/ws_connection.h
  /home/d/blog/sylar/http/http_connection.h
- /home/d/blog/sylar/src/socket_stream.h
+ /home/d/blog/sylar/src/streams/socket_stream.h
  /home/d/blog/sylar/src/stream.h
  /usr/include/c++/11/memory
  /usr/include/c++/11/bits/stl_algobase.h
@@ -356,6 +356,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o
  /home/d/blog/sylar/src/iomanager.h
  /home/d/blog/sylar/src/scheduler.h
  /home/d/blog/sylar/src/thread.h
+ /home/d/blog/sylar/src/mutex.h
  /home/d/blog/sylar/src/timer.h
  /usr/include/c++/11/set
  /usr/include/c++/11/bits/stl_set.h
@@ -938,6 +939,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o
  /usr/include/boost/integer_fwd.hpp
  /usr/include/boost/detail/basic_pointerbuf.hpp
  /home/d/blog/sylar/src/uri.h
+ /home/d/blog/sylar/src/address.h
  /home/d/blog/sylar/src/thread.h
  /home/d/blog/sylar/http/ws_session.h
  /home/d/blog/sylar/src/config.h
@@ -980,6 +982,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o
  /usr/include/c++/11/bits/unordered_map.h
  /usr/include/c++/11/unordered_set
  /usr/include/c++/11/bits/unordered_set.h
+ /home/d/blog/sylar/src/thread.h
  /home/d/blog/sylar/src/log.h
  /usr/include/c++/11/fstream
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h

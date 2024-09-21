@@ -851,9 +851,12 @@ CMakeFiles/sylar.dir/http/http_server.cpp.o: \
  /home/d/blog/sylar/http/../src/utils/json_util.h \
  /home/d/blog/sylar/http/../src/singleton.h \
  /home/d/blog/sylar/http/http_session.h \
- /home/d/blog/sylar/http/../src/socket_stream.h \
- /home/d/blog/sylar/http/../src/stream.h \
- /home/d/blog/sylar/http/../src/bytearray.h \
+ /home/d/blog/sylar/http/../src/streams/socket_stream.h \
+ /home/d/blog/sylar/http/../src/streams/../stream.h \
+ /home/d/blog/sylar/http/../src/streams/../bytearray.h \
+ /home/d/blog/sylar/http/../src/streams/../socket.h \
+ /home/d/blog/sylar/http/../src/streams/../mutex.h \
+ /home/d/blog/sylar/http/../src/streams/../iomanager.h \
  /home/d/blog/sylar/http/http.h /home/d/blog/sylar/http/servlet.h \
  /home/d/blog/sylar/http/../src/thread.h \
  /home/d/blog/sylar/http/../src/util.h \

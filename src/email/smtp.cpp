@@ -1,5 +1,5 @@
 #include "smtp.h"
-#include "sylar/log.h"
+#include "../log.h"
 
 namespace sylar {
 

@@ -1004,9 +1004,12 @@ CMakeFiles/test_app.dir/test/test_application.cpp.o: ../test/test_application.cp
   ../src/utils/json_util.h \
   ../src/singleton.h \
   ../http/http_session.h \
-  ../src/socket_stream.h \
+  ../src/streams/socket_stream.h \
   ../src/stream.h \
   ../src/bytearray.h \
+  ../src/socket.h \
+  ../src/mutex.h \
+  ../src/iomanager.h \
   ../http/http.h \
   ../http/servlet.h \
   ../src/thread.h \
@@ -1018,6 +1021,8 @@ CMakeFiles/test_app.dir/test/test_application.cpp.o: ../test/test_application.cp
 ../src/bytearray.h:
 
 ../src/stream.h:
+
+../src/streams/socket_stream.h:
 
 ../http/http_session.h:
 
@@ -1202,8 +1207,6 @@ CMakeFiles/test_app.dir/test/test_application.cpp.o: ../test/test_application.cp
 /usr/include/boost/mpl/logical.hpp:
 
 /usr/include/boost/mpl/aux_/traits_lambda_spec.hpp:
-
-../src/socket_stream.h:
 
 /usr/include/jsoncpp/json/writer.h:
 

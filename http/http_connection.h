@@ -1,7 +1,7 @@
 #ifndef __SYLAR_HTTP_CONNECTION_H__
 #define __SYLAR_HTTP_CONNECTION_H__
 
-#include "../src/socket_stream.h"
+#include "../src/streams/socket_stream.h"
 #include "http.h"
 #include "../src/uri.h"
 #include "../src/thread.h"

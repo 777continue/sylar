@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DDBUG_OFF
 
-CXX_INCLUDES = -I/home/d -I/src -I/http -I/usr/include/jsoncpp -I/usr/include/mysql
+CXX_INCLUDES = -I/src -I/http -I/usr/include/jsoncpp -I/usr/include/mysql
 
 CXX_FLAGS =  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations -std=gnu++11
 

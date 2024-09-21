@@ -2,8 +2,8 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: \
  /home/d/blog/sylar/test/test_ws_client.cpp /usr/include/stdc-predef.h \
  /home/d/blog/sylar/test/../http/ws_connection.h \
  /home/d/blog/sylar/test/../http/http_connection.h \
- /home/d/blog/sylar/test/../http/../src/socket_stream.h \
- /home/d/blog/sylar/test/../http/../src/stream.h \
+ /home/d/blog/sylar/test/../http/../src/streams/socket_stream.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../stream.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -116,7 +116,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/d/blog/sylar/test/../http/../src/bytearray.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../bytearray.h \
  /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/cstdint /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
@@ -167,7 +167,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/d/blog/sylar/test/../http/../src/socket.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../socket.h \
  /usr/include/netinet/tcp.h /usr/include/openssl/err.h \
  /usr/include/openssl/macros.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
@@ -215,7 +215,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: \
  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
  /usr/include/openssl/srtp.h \
- /home/d/blog/sylar/test/../http/../src/address.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../address.h \
  /usr/include/x86_64-linux-gnu/sys/un.h /usr/include/arpa/inet.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -246,8 +246,8 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: \
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/d/blog/sylar/test/../http/../src/noncopyable.h \
- /home/d/blog/sylar/test/../http/../src/mutex.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../noncopyable.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../mutex.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
@@ -256,15 +256,17 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
- /home/d/blog/sylar/test/../http/../src/fiber.h /usr/include/ucontext.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../fiber.h \
+ /usr/include/ucontext.h \
  /usr/include/x86_64-linux-gnu/bits/indirect-return.h \
  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
- /home/d/blog/sylar/test/../http/../src/iomanager.h \
- /home/d/blog/sylar/test/../http/../src/scheduler.h \
- /home/d/blog/sylar/test/../http/../src/thread.h \
- /home/d/blog/sylar/test/../http/../src/timer.h /usr/include/c++/11/set \
- /usr/include/c++/11/bits/stl_set.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../iomanager.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../scheduler.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../thread.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../mutex.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../timer.h \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /home/d/blog/sylar/test/../http/http.h /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/boost/lexical_cast.hpp \
@@ -798,6 +800,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: \
  /usr/include/boost/integer.hpp /usr/include/boost/integer_fwd.hpp \
  /usr/include/boost/detail/basic_pointerbuf.hpp \
  /home/d/blog/sylar/test/../http/../src/uri.h \
+ /home/d/blog/sylar/test/../http/../src/address.h \
  /home/d/blog/sylar/test/../http/../src/thread.h \
  /home/d/blog/sylar/test/../http/ws_session.h \
  /home/d/blog/sylar/test/../http/../src/config.h \
@@ -837,6 +840,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/unordered_set \
  /usr/include/c++/11/bits/unordered_set.h \
+ /home/d/blog/sylar/test/../http/../src/thread.h \
  /home/d/blog/sylar/test/../http/../src/log.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \

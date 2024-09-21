@@ -2,9 +2,9 @@ CMakeFiles/sylar.dir/http/ws_connection.cpp.o: \
  /home/d/blog/sylar/http/ws_connection.cpp /usr/include/stdc-predef.h \
  /home/d/blog/sylar/http/ws_connection.h \
  /home/d/blog/sylar/http/http_connection.h \
- /home/d/blog/sylar/http/../src/socket_stream.h \
- /home/d/blog/sylar/http/../src/stream.h /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_algobase.h \
+ /home/d/blog/sylar/http/../src/streams/socket_stream.h \
+ /home/d/blog/sylar/http/../src/streams/../stream.h \
+ /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -116,9 +116,9 @@ CMakeFiles/sylar.dir/http/ws_connection.cpp.o: \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
- /home/d/blog/sylar/http/../src/bytearray.h /usr/include/c++/11/string \
- /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/cstdint \
- /usr/include/c++/11/bits/localefwd.h \
+ /home/d/blog/sylar/http/../src/streams/../bytearray.h \
+ /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
+ /usr/include/c++/11/cstdint /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
  /usr/include/c++/11/clocale /usr/include/locale.h \
  /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
@@ -167,8 +167,9 @@ CMakeFiles/sylar.dir/http/ws_connection.cpp.o: \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/d/blog/sylar/http/../src/socket.h /usr/include/netinet/tcp.h \
- /usr/include/openssl/err.h /usr/include/openssl/macros.h \
+ /home/d/blog/sylar/http/../src/streams/../socket.h \
+ /usr/include/netinet/tcp.h /usr/include/openssl/err.h \
+ /usr/include/openssl/macros.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
  /usr/include/x86_64-linux-gnu/openssl/configuration.h \
  /usr/include/openssl/opensslv.h /usr/include/openssl/e_os2.h \
@@ -213,7 +214,8 @@ CMakeFiles/sylar.dir/http/ws_connection.cpp.o: \
  /usr/include/openssl/sslerr_legacy.h /usr/include/openssl/prov_ssl.h \
  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
- /usr/include/openssl/srtp.h /home/d/blog/sylar/http/../src/address.h \
+ /usr/include/openssl/srtp.h \
+ /home/d/blog/sylar/http/../src/streams/../address.h \
  /usr/include/x86_64-linux-gnu/sys/un.h /usr/include/arpa/inet.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -244,9 +246,9 @@ CMakeFiles/sylar.dir/http/ws_connection.cpp.o: \
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/d/blog/sylar/http/../src/noncopyable.h \
- /home/d/blog/sylar/http/../src/mutex.h /usr/include/c++/11/thread \
- /usr/include/c++/11/bits/std_thread.h \
+ /home/d/blog/sylar/http/../src/streams/../noncopyable.h \
+ /home/d/blog/sylar/http/../src/streams/../mutex.h \
+ /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/limits \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
@@ -254,15 +256,17 @@ CMakeFiles/sylar.dir/http/ws_connection.cpp.o: \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
- /home/d/blog/sylar/http/../src/fiber.h /usr/include/ucontext.h \
+ /home/d/blog/sylar/http/../src/streams/../fiber.h \
+ /usr/include/ucontext.h \
  /usr/include/x86_64-linux-gnu/bits/indirect-return.h \
  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
- /home/d/blog/sylar/http/../src/iomanager.h \
- /home/d/blog/sylar/http/../src/scheduler.h \
- /home/d/blog/sylar/http/../src/thread.h \
- /home/d/blog/sylar/http/../src/timer.h /usr/include/c++/11/set \
- /usr/include/c++/11/bits/stl_set.h \
+ /home/d/blog/sylar/http/../src/streams/../iomanager.h \
+ /home/d/blog/sylar/http/../src/streams/../scheduler.h \
+ /home/d/blog/sylar/http/../src/streams/../thread.h \
+ /home/d/blog/sylar/http/../src/streams/../mutex.h \
+ /home/d/blog/sylar/http/../src/streams/../timer.h \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /home/d/blog/sylar/http/http.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
  /usr/include/boost/lexical_cast.hpp /usr/include/boost/config.hpp \
@@ -796,6 +800,7 @@ CMakeFiles/sylar.dir/http/ws_connection.cpp.o: \
  /usr/include/boost/integer.hpp /usr/include/boost/integer_fwd.hpp \
  /usr/include/boost/detail/basic_pointerbuf.hpp \
  /home/d/blog/sylar/http/../src/uri.h \
+ /home/d/blog/sylar/http/../src/address.h \
  /home/d/blog/sylar/http/../src/thread.h \
  /home/d/blog/sylar/http/ws_session.h \
  /home/d/blog/sylar/http/../src/config.h \
@@ -835,6 +840,7 @@ CMakeFiles/sylar.dir/http/ws_connection.cpp.o: \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/unordered_set \
  /usr/include/c++/11/bits/unordered_set.h \
+ /home/d/blog/sylar/http/../src/thread.h \
  /home/d/blog/sylar/http/../src/log.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \

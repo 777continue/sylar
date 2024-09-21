@@ -164,6 +164,7 @@ orm_EXTERNAL_OBJECTS =
 ../bin/orm: /usr/lib/x86_64-linux-gnu/libcrypto.so
 ../bin/orm: /usr/lib/x86_64-linux-gnu/libz.so
 ../bin/orm: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../bin/orm: /usr/local/lib/libhiredis_vip.so
 ../bin/orm: CMakeFiles/orm.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/d/blog/sylar/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/orm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/orm.dir/link.txt --verbose=$(VERBOSE)

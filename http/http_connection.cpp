@@ -1,7 +1,7 @@
 #include "http_connection.h"
 #include "http_parser.h"
 #include "../src/log.h"
-#include "../src/zlib_stream.h"
+#include "../src/streams/zlib_stream.h"
 
 namespace sylar {
 namespace http {

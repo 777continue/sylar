@@ -5,7 +5,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
   /usr/include/stdc-predef.h \
   ../http/ws_connection.h \
   ../http/http_connection.h \
-  ../src/socket_stream.h \
+  ../src/streams/socket_stream.h \
   ../src/stream.h \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_algobase.h \
@@ -355,6 +355,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
   ../src/iomanager.h \
   ../src/scheduler.h \
   ../src/thread.h \
+  ../src/mutex.h \
   ../src/timer.h \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_set.h \
@@ -937,6 +938,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
   /usr/include/boost/integer_fwd.hpp \
   /usr/include/boost/detail/basic_pointerbuf.hpp \
   ../src/uri.h \
+  ../src/address.h \
   ../src/thread.h \
   ../http/ws_session.h \
   ../src/config.h \
@@ -979,6 +981,7 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/unordered_set \
   /usr/include/c++/11/bits/unordered_set.h \
+  ../src/thread.h \
   ../src/log.h \
   /usr/include/c++/11/fstream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
@@ -1197,6 +1200,10 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
 /usr/include/boost/mpl/logical.hpp:
 
 /usr/include/boost/mpl/aux_/traits_lambda_spec.hpp:
+
+/usr/include/jsoncpp/json/writer.h:
+
+/usr/include/boost/mpl/aux_/begin_end_impl.hpp:
 
 /usr/include/boost/mpl/begin_end.hpp:
 
@@ -1960,12 +1967,6 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
-/usr/include/jsoncpp/json/writer.h:
-
-/usr/include/boost/mpl/aux_/begin_end_impl.hpp:
-
-../src/socket_stream.h:
-
 /usr/include/x86_64-linux-gnu/bits/socket.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
@@ -2003,6 +2004,54 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
 /usr/include/c++/11/bits/ptr_traits.h:
 
 /usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/features.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+/usr/include/c++/11/stack:
+
+/usr/include/openssl/dh.h:
+
+/usr/include/c++/11/utility:
+
+/usr/include/c++/11/ios:
+
+/usr/include/boost/mpl/limits/list.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/c++/11/cstdlib:
+
+/usr/include/boost/mpl/vector/aux_/at.hpp:
+
+/usr/include/c++/11/bit:
+
+../http/http_connection.h:
+
+/usr/include/c++/11/memory:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/quadmath.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/local/include/yaml-cpp/node/detail/node_iterator.h:
+
+/usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/usr/include/boost/mpl/vector/aux_/O1_size.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+../src/stream.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -2056,53 +2105,15 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
-../src/stream.h:
+/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
 
-/usr/include/features.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
-/usr/include/c++/11/bits/atomic_base.h:
+/usr/include/linux/errno.h:
 
-/usr/include/c++/11/stack:
+/usr/include/boost/preprocessor/seq/fold_left.hpp:
 
-/usr/include/openssl/dh.h:
-
-/usr/include/c++/11/utility:
-
-/usr/include/c++/11/ios:
-
-/usr/include/boost/mpl/limits/list.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/quadmath.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/boost/mpl/vector/aux_/O1_size.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/c++/11/memory:
-
-/usr/include/c++/11/cstdlib:
-
-/usr/include/boost/mpl/vector/aux_/at.hpp:
-
-/usr/include/c++/11/bit:
-
-../http/http_connection.h:
-
-/usr/local/include/yaml-cpp/node/detail/node_iterator.h:
-
-/usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
+/usr/include/c++/11/functional:
 
 /usr/include/c++/11/debug/assertions.h:
 
@@ -2118,16 +2129,6 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
 
 /usr/include/c++/11/chrono:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/boost/preprocessor/seq/fold_left.hpp:
-
-/usr/include/c++/11/functional:
-
 /usr/include/boost/mpl/plus.hpp:
 
 /usr/include/openssl/objects.h:
@@ -2136,6 +2137,10 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
 
 /usr/include/boost/type_traits/is_pointer.hpp:
 
+/usr/include/boost/mpl/contains_fwd.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /usr/include/boost/mpl/aux_/lambda_spec.hpp:
@@ -2143,10 +2148,6 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
 /usr/include/boost/preprocessor/detail/auto_rec.hpp:
 
 /usr/include/boost/type_traits/is_complete.hpp:
-
-/usr/include/boost/mpl/contains_fwd.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/x86_64-linux-gnu/bits/socket_type.h:
 
@@ -2351,6 +2352,10 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/locale.h:
+
+../src/streams/socket_stream.h:
+
+/usr/include/boost/preprocessor/inc.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
@@ -2728,9 +2733,9 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
 
 ../http/http.h:
 
-/usr/include/c++/11/bits/stl_iterator.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/c++/11/bits/stl_iterator.h:
 
 /usr/include/boost/preprocessor/arithmetic/inc.hpp:
 
@@ -2818,9 +2823,9 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
 
 /usr/include/boost/mpl/aux_/integral_wrapper.hpp:
 
-/usr/include/boost/type_traits/is_convertible.hpp:
-
 /usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/boost/type_traits/is_convertible.hpp:
 
 /usr/include/boost/preprocessor/list/detail/fold_right.hpp:
 
@@ -2873,8 +2878,6 @@ CMakeFiles/test_wsc.dir/test/test_ws_client.cpp.o: ../test/test_ws_client.cpp \
 /usr/include/boost/preprocessor/debug/error.hpp:
 
 /usr/include/boost/preprocessor/tuple/eat.hpp:
-
-/usr/include/boost/preprocessor/inc.hpp:
 
 /usr/include/boost/mpl/aux_/config/intel.hpp:
 

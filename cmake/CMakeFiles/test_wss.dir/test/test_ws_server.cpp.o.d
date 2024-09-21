@@ -858,9 +858,12 @@ CMakeFiles/test_wss.dir/test/test_ws_server.cpp.o: \
  /home/d/blog/sylar/test/../http/ws_session.h \
  /home/d/blog/sylar/test/../http/../src/config.h \
  /home/d/blog/sylar/test/../http/http_session.h \
- /home/d/blog/sylar/test/../http/../src/socket_stream.h \
- /home/d/blog/sylar/test/../http/../src/stream.h \
- /home/d/blog/sylar/test/../http/../src/bytearray.h \
+ /home/d/blog/sylar/test/../http/../src/streams/socket_stream.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../stream.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../bytearray.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../socket.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../mutex.h \
+ /home/d/blog/sylar/test/../http/../src/streams/../iomanager.h \
  /home/d/blog/sylar/test/../http/http.h \
  /home/d/blog/sylar/test/../http/ws_servlet.h \
  /home/d/blog/sylar/test/../http/../src/thread.h \

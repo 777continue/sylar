@@ -1,4 +1,4 @@
-ifndef __SYLAR_EMAIL_EMAIL_H__
+#ifndef __SYLAR_EMAIL_EMAIL_H__
 #define __SYLAR_EMAIL_EMAIL_H__
 
 #include <memory>
@@ -51,7 +51,7 @@ public:
 
     void setToEMailAddress(const std::vector<std::string>& v) { m_toEMailAddress = v;}
     void setCcEMailAddress(const std::vector<std::string>& v) { m_ccEMailAddress = v;}
-    void setBccEMailAddress(const std::vector<std::string>& v) { m_bccEMailAddress = v;
+    void setBccEMailAddress(const std::vector<std::string>& v) { m_bccEMailAddress = v;}
 
     void addEntity(EMailEntity::ptr entity);
     const std::vector<EMailEntity::ptr>& getEntitys() const { return m_entitys;}

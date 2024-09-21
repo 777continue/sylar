@@ -859,9 +859,12 @@ CMakeFiles/test_app.dir/test/test_application.cpp.o: \
  /home/d/blog/sylar/test/../src/../http/../src/utils/json_util.h \
  /home/d/blog/sylar/test/../src/../http/../src/singleton.h \
  /home/d/blog/sylar/test/../src/../http/http_session.h \
- /home/d/blog/sylar/test/../src/../http/../src/socket_stream.h \
- /home/d/blog/sylar/test/../src/../http/../src/stream.h \
- /home/d/blog/sylar/test/../src/../http/../src/bytearray.h \
+ /home/d/blog/sylar/test/../src/../http/../src/streams/socket_stream.h \
+ /home/d/blog/sylar/test/../src/../http/../src/streams/../stream.h \
+ /home/d/blog/sylar/test/../src/../http/../src/streams/../bytearray.h \
+ /home/d/blog/sylar/test/../src/../http/../src/streams/../socket.h \
+ /home/d/blog/sylar/test/../src/../http/../src/streams/../mutex.h \
+ /home/d/blog/sylar/test/../src/../http/../src/streams/../iomanager.h \
  /home/d/blog/sylar/test/../src/../http/http.h \
  /home/d/blog/sylar/test/../src/../http/servlet.h \
  /home/d/blog/sylar/test/../src/../http/../src/thread.h \

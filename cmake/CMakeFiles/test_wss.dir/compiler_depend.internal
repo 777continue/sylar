@@ -1006,9 +1006,12 @@ CMakeFiles/test_wss.dir/test/test_ws_server.cpp.o
  /home/d/blog/sylar/http/ws_session.h
  /home/d/blog/sylar/src/config.h
  /home/d/blog/sylar/http/http_session.h
- /home/d/blog/sylar/src/socket_stream.h
+ /home/d/blog/sylar/src/streams/socket_stream.h
  /home/d/blog/sylar/src/stream.h
  /home/d/blog/sylar/src/bytearray.h
+ /home/d/blog/sylar/src/socket.h
+ /home/d/blog/sylar/src/mutex.h
+ /home/d/blog/sylar/src/iomanager.h
  /home/d/blog/sylar/http/http.h
  /home/d/blog/sylar/http/ws_servlet.h
  /home/d/blog/sylar/src/thread.h

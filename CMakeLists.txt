@@ -31,8 +31,6 @@ include (cmake/utils.cmake)
 ###phase 2 directories and package
 
 # 添加头文件搜索路径
-include_directories("/usr/include/")
-include_directories("/home/d")
 include_directories("/src")
 include_directories("/http")
 
@@ -43,7 +41,7 @@ pkg_check_modules(JSONCPP jsoncpp)
 include_directories(${JSONCPP_INCLUDE_DIRS})
 message(STATUS ${JSONCPP_INCLUDE_DIRS})
 
-# 搜索 yaml-cpp 库
+# 搜索 yaml-cpp 库, library
 find_library(YAMLCPP NAMES yaml-cpp PATHS "/home/d")
 
 # 搜索 boost库
@@ -82,20 +80,21 @@ if(MYSQL_FOUND)
     include_directories(${MYSQL_INCLUDE_DIR})
 endif()
 
+#xml解析器, library
 find_library(TINYXML2 NAMES tinyxml2 PATHS "/home/d")
 message(STATUS "TINYXML2 library found: ${TINYXML2}")
 
+#
+find_library(HIREDIS_VIP_LIB "hiredis_vip" PATHS "/usr/local/lib")
 
 
-
-
-
-
+# 查找 ZooKeeper 的头文件路径
+#find_package(ZooKeeper 3.7.0 REQUIRED)
 
 ###phase 3
 
 # 定义源文件变量，排除头文件
-file(GLOB SOURCES "src/*.cpp" "src/utils/*.cpp"  "http/*.cpp"  "http/servlets/*.cpp" "src/db/*.cpp")
+file(GLOB SOURCES "src/*.cpp" "src/utils/*.cpp" "src/streams/*.cpp" "src/email/*.cpp" "http/*.cpp"  "http/servlets/*.cpp" "src/db/*.cpp")
 
 #.rl complier,先定义SOURCE再添加
 ragelmaker(http/http11_parser.rl SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/http)
@@ -116,7 +115,10 @@ set(LIBS
 	${ZLIB_LIBRARIES}
 	${SQLite3_LIBRARIES}
         ${MYSQL_LIBRARIES}
-        tinyxml2) 
+        tinyxml2
+        event
+         ${HIREDIS_VIP_LIB}
+        ) 
 
 set(ORM_SRCS
     src/orm/table.cpp
@@ -135,6 +137,7 @@ sylar_add_executable(test_wss "test/test_ws_server.cpp" sylar "${LIBS}")
 sylar_add_executable(test_wsc "test/test_ws_client.cpp" sylar "${LIBS}")
 sylar_add_executable(test_app "test/test_application.cpp" sylar "${LIBS}")
 sylar_add_executable(test_sqlite3 "test/test_sqlite3.cpp" sylar "${LIBS}")
+#sylar_add_executable(test_zookeeper "test/test_zookeeper.cpp" sylar "${LIBS}")
 
 
 

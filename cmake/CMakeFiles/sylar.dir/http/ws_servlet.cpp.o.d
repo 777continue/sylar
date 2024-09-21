@@ -791,9 +791,9 @@ CMakeFiles/sylar.dir/http/ws_servlet.cpp.o: \
  /home/d/blog/sylar/http/../src/utils/json_util.h \
  /home/d/blog/sylar/http/../src/singleton.h \
  /home/d/blog/sylar/http/http_session.h \
- /home/d/blog/sylar/http/../src/socket_stream.h \
- /home/d/blog/sylar/http/../src/stream.h \
- /home/d/blog/sylar/http/../src/bytearray.h \
+ /home/d/blog/sylar/http/../src/streams/socket_stream.h \
+ /home/d/blog/sylar/http/../src/streams/../stream.h \
+ /home/d/blog/sylar/http/../src/streams/../bytearray.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -810,8 +810,9 @@ CMakeFiles/sylar.dir/http/ws_servlet.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
- /home/d/blog/sylar/http/../src/socket.h /usr/include/netinet/tcp.h \
- /usr/include/openssl/err.h /usr/include/openssl/macros.h \
+ /home/d/blog/sylar/http/../src/streams/../socket.h \
+ /usr/include/netinet/tcp.h /usr/include/openssl/err.h \
+ /usr/include/openssl/macros.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
  /usr/include/x86_64-linux-gnu/openssl/configuration.h \
  /usr/include/openssl/opensslv.h /usr/include/openssl/e_os2.h \
@@ -847,11 +848,15 @@ CMakeFiles/sylar.dir/http/ws_servlet.cpp.o: \
  /usr/include/openssl/prov_ssl.h /usr/include/openssl/ssl2.h \
  /usr/include/openssl/ssl3.h /usr/include/openssl/tls1.h \
  /usr/include/openssl/dtls1.h /usr/include/openssl/srtp.h \
- /home/d/blog/sylar/http/../src/address.h \
+ /home/d/blog/sylar/http/../src/streams/../address.h \
  /usr/include/x86_64-linux-gnu/sys/un.h /usr/include/arpa/inet.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
- /home/d/blog/sylar/http/../src/iomanager.h \
- /home/d/blog/sylar/http/../src/scheduler.h \
- /home/d/blog/sylar/http/../src/timer.h /home/d/blog/sylar/http/http.h \
- /home/d/blog/sylar/http/../src/thread.h \
+ /home/d/blog/sylar/http/../src/streams/../noncopyable.h \
+ /home/d/blog/sylar/http/../src/streams/../mutex.h \
+ /home/d/blog/sylar/http/../src/streams/../iomanager.h \
+ /home/d/blog/sylar/http/../src/streams/../scheduler.h \
+ /home/d/blog/sylar/http/../src/streams/../fiber.h \
+ /home/d/blog/sylar/http/../src/streams/../thread.h \
+ /home/d/blog/sylar/http/../src/streams/../timer.h \
+ /home/d/blog/sylar/http/http.h /home/d/blog/sylar/http/../src/thread.h \
  /home/d/blog/sylar/http/servlet.h /home/d/blog/sylar/http/../src/util.h

@@ -100,6 +100,7 @@ test_wsc_EXTERNAL_OBJECTS =
 ../bin/test_wsc: /usr/lib/x86_64-linux-gnu/libcrypto.so
 ../bin/test_wsc: /usr/lib/x86_64-linux-gnu/libz.so
 ../bin/test_wsc: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../bin/test_wsc: /usr/local/lib/libhiredis_vip.so
 ../bin/test_wsc: CMakeFiles/test_wsc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/d/blog/sylar/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/test_wsc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_wsc.dir/link.txt --verbose=$(VERBOSE)

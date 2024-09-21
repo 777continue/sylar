@@ -100,6 +100,7 @@ test_app_EXTERNAL_OBJECTS =
 ../bin/test_app: /usr/lib/x86_64-linux-gnu/libcrypto.so
 ../bin/test_app: /usr/lib/x86_64-linux-gnu/libz.so
 ../bin/test_app: /usr/lib/x86_64-linux-gnu/libsqlite3.so
+../bin/test_app: /usr/local/lib/libhiredis_vip.so
 ../bin/test_app: CMakeFiles/test_app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/d/blog/sylar/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/test_app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_app.dir/link.txt --verbose=$(VERBOSE)

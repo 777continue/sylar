@@ -1,7 +1,7 @@
 #ifndef __SYLAR_EMAIL_SMTP_H__
 #define __SYLAR_EMAIL_SMTP_H__
 
-#include "sylar/streams/socket_stream.h"
+#include "../streams/socket_stream.h"
 #include "email.h"
 #include <sstream>
 

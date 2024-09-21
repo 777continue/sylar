@@ -653,6 +653,30 @@ src/daemon.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/daemon.cpp.s
 .PHONY : src/daemon.cpp.s
 
+src/db/fox_thread.o: src/db/fox_thread.cpp.o
+.PHONY : src/db/fox_thread.o
+
+# target to build an object file
+src/db/fox_thread.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/fox_thread.cpp.o
+.PHONY : src/db/fox_thread.cpp.o
+
+src/db/fox_thread.i: src/db/fox_thread.cpp.i
+.PHONY : src/db/fox_thread.i
+
+# target to preprocess a source file
+src/db/fox_thread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/fox_thread.cpp.i
+.PHONY : src/db/fox_thread.cpp.i
+
+src/db/fox_thread.s: src/db/fox_thread.cpp.s
+.PHONY : src/db/fox_thread.s
+
+# target to generate assembly for a file
+src/db/fox_thread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/fox_thread.cpp.s
+.PHONY : src/db/fox_thread.cpp.s
+
 src/db/mysql.o: src/db/mysql.cpp.o
 .PHONY : src/db/mysql.o
 
@@ -677,6 +701,30 @@ src/db/mysql.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/mysql.cpp.s
 .PHONY : src/db/mysql.cpp.s
 
+src/db/redis.o: src/db/redis.cpp.o
+.PHONY : src/db/redis.o
+
+# target to build an object file
+src/db/redis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/redis.cpp.o
+.PHONY : src/db/redis.cpp.o
+
+src/db/redis.i: src/db/redis.cpp.i
+.PHONY : src/db/redis.i
+
+# target to preprocess a source file
+src/db/redis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/redis.cpp.i
+.PHONY : src/db/redis.cpp.i
+
+src/db/redis.s: src/db/redis.cpp.s
+.PHONY : src/db/redis.s
+
+# target to generate assembly for a file
+src/db/redis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/redis.cpp.s
+.PHONY : src/db/redis.cpp.s
+
 src/db/sqlite3.o: src/db/sqlite3.cpp.o
 .PHONY : src/db/sqlite3.o
 
@@ -700,6 +748,54 @@ src/db/sqlite3.s: src/db/sqlite3.cpp.s
 src/db/sqlite3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/sqlite3.cpp.s
 .PHONY : src/db/sqlite3.cpp.s
+
+src/email/email.o: src/email/email.cpp.o
+.PHONY : src/email/email.o
+
+# target to build an object file
+src/email/email.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/email.cpp.o
+.PHONY : src/email/email.cpp.o
+
+src/email/email.i: src/email/email.cpp.i
+.PHONY : src/email/email.i
+
+# target to preprocess a source file
+src/email/email.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/email.cpp.i
+.PHONY : src/email/email.cpp.i
+
+src/email/email.s: src/email/email.cpp.s
+.PHONY : src/email/email.s
+
+# target to generate assembly for a file
+src/email/email.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/email.cpp.s
+.PHONY : src/email/email.cpp.s
+
+src/email/smtp.o: src/email/smtp.cpp.o
+.PHONY : src/email/smtp.o
+
+# target to build an object file
+src/email/smtp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/smtp.cpp.o
+.PHONY : src/email/smtp.cpp.o
+
+src/email/smtp.i: src/email/smtp.cpp.i
+.PHONY : src/email/smtp.i
+
+# target to preprocess a source file
+src/email/smtp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/smtp.cpp.i
+.PHONY : src/email/smtp.cpp.i
+
+src/email/smtp.s: src/email/smtp.cpp.s
+.PHONY : src/email/smtp.s
+
+# target to generate assembly for a file
+src/email/smtp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/smtp.cpp.s
+.PHONY : src/email/smtp.cpp.s
 
 src/env.o: src/env.cpp.o
 .PHONY : src/env.o
@@ -844,30 +940,6 @@ src/library.s: src/library.cpp.s
 src/library.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/library.cpp.s
 .PHONY : src/library.cpp.s
-
-src/load_balance.o: src/load_balance.cpp.o
-.PHONY : src/load_balance.o
-
-# target to build an object file
-src/load_balance.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/load_balance.cpp.o
-.PHONY : src/load_balance.cpp.o
-
-src/load_balance.i: src/load_balance.cpp.i
-.PHONY : src/load_balance.i
-
-# target to preprocess a source file
-src/load_balance.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/load_balance.cpp.i
-.PHONY : src/load_balance.cpp.i
-
-src/load_balance.s: src/load_balance.cpp.s
-.PHONY : src/load_balance.s
-
-# target to generate assembly for a file
-src/load_balance.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/load_balance.cpp.s
-.PHONY : src/load_balance.cpp.s
 
 src/log.o: src/log.cpp.o
 .PHONY : src/log.o
@@ -1109,30 +1181,6 @@ src/socket.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/socket.cpp.s
 .PHONY : src/socket.cpp.s
 
-src/socket_stream.o: src/socket_stream.cpp.o
-.PHONY : src/socket_stream.o
-
-# target to build an object file
-src/socket_stream.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/socket_stream.cpp.o
-.PHONY : src/socket_stream.cpp.o
-
-src/socket_stream.i: src/socket_stream.cpp.i
-.PHONY : src/socket_stream.i
-
-# target to preprocess a source file
-src/socket_stream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/socket_stream.cpp.i
-.PHONY : src/socket_stream.cpp.i
-
-src/socket_stream.s: src/socket_stream.cpp.s
-.PHONY : src/socket_stream.s
-
-# target to generate assembly for a file
-src/socket_stream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/socket_stream.cpp.s
-.PHONY : src/socket_stream.cpp.s
-
 src/stream.o: src/stream.cpp.o
 .PHONY : src/stream.o
 
@@ -1156,6 +1204,78 @@ src/stream.s: src/stream.cpp.s
 src/stream.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/stream.cpp.s
 .PHONY : src/stream.cpp.s
+
+src/streams/load_balance.o: src/streams/load_balance.cpp.o
+.PHONY : src/streams/load_balance.o
+
+# target to build an object file
+src/streams/load_balance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/streams/load_balance.cpp.o
+.PHONY : src/streams/load_balance.cpp.o
+
+src/streams/load_balance.i: src/streams/load_balance.cpp.i
+.PHONY : src/streams/load_balance.i
+
+# target to preprocess a source file
+src/streams/load_balance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/streams/load_balance.cpp.i
+.PHONY : src/streams/load_balance.cpp.i
+
+src/streams/load_balance.s: src/streams/load_balance.cpp.s
+.PHONY : src/streams/load_balance.s
+
+# target to generate assembly for a file
+src/streams/load_balance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/streams/load_balance.cpp.s
+.PHONY : src/streams/load_balance.cpp.s
+
+src/streams/socket_stream.o: src/streams/socket_stream.cpp.o
+.PHONY : src/streams/socket_stream.o
+
+# target to build an object file
+src/streams/socket_stream.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/streams/socket_stream.cpp.o
+.PHONY : src/streams/socket_stream.cpp.o
+
+src/streams/socket_stream.i: src/streams/socket_stream.cpp.i
+.PHONY : src/streams/socket_stream.i
+
+# target to preprocess a source file
+src/streams/socket_stream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/streams/socket_stream.cpp.i
+.PHONY : src/streams/socket_stream.cpp.i
+
+src/streams/socket_stream.s: src/streams/socket_stream.cpp.s
+.PHONY : src/streams/socket_stream.s
+
+# target to generate assembly for a file
+src/streams/socket_stream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/streams/socket_stream.cpp.s
+.PHONY : src/streams/socket_stream.cpp.s
+
+src/streams/zlib_stream.o: src/streams/zlib_stream.cpp.o
+.PHONY : src/streams/zlib_stream.o
+
+# target to build an object file
+src/streams/zlib_stream.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/streams/zlib_stream.cpp.o
+.PHONY : src/streams/zlib_stream.cpp.o
+
+src/streams/zlib_stream.i: src/streams/zlib_stream.cpp.i
+.PHONY : src/streams/zlib_stream.i
+
+# target to preprocess a source file
+src/streams/zlib_stream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/streams/zlib_stream.cpp.i
+.PHONY : src/streams/zlib_stream.cpp.i
+
+src/streams/zlib_stream.s: src/streams/zlib_stream.cpp.s
+.PHONY : src/streams/zlib_stream.s
+
+# target to generate assembly for a file
+src/streams/zlib_stream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/streams/zlib_stream.cpp.s
+.PHONY : src/streams/zlib_stream.cpp.s
 
 src/tcp_server.o: src/tcp_server.cpp.o
 .PHONY : src/tcp_server.o
@@ -1349,30 +1469,6 @@ src/worker.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/worker.cpp.s
 .PHONY : src/worker.cpp.s
 
-src/zlib_stream.o: src/zlib_stream.cpp.o
-.PHONY : src/zlib_stream.o
-
-# target to build an object file
-src/zlib_stream.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/zlib_stream.cpp.o
-.PHONY : src/zlib_stream.cpp.o
-
-src/zlib_stream.i: src/zlib_stream.cpp.i
-.PHONY : src/zlib_stream.i
-
-# target to preprocess a source file
-src/zlib_stream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/zlib_stream.cpp.i
-.PHONY : src/zlib_stream.cpp.i
-
-src/zlib_stream.s: src/zlib_stream.cpp.s
-.PHONY : src/zlib_stream.s
-
-# target to generate assembly for a file
-src/zlib_stream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/zlib_stream.cpp.s
-.PHONY : src/zlib_stream.cpp.s
-
 test/test_application.o: test/test_application.cpp.o
 .PHONY : test/test_application.o
 
@@ -1540,12 +1636,24 @@ help:
 	@echo "... src/daemon.o"
 	@echo "... src/daemon.i"
 	@echo "... src/daemon.s"
+	@echo "... src/db/fox_thread.o"
+	@echo "... src/db/fox_thread.i"
+	@echo "... src/db/fox_thread.s"
 	@echo "... src/db/mysql.o"
 	@echo "... src/db/mysql.i"
 	@echo "... src/db/mysql.s"
+	@echo "... src/db/redis.o"
+	@echo "... src/db/redis.i"
+	@echo "... src/db/redis.s"
 	@echo "... src/db/sqlite3.o"
 	@echo "... src/db/sqlite3.i"
 	@echo "... src/db/sqlite3.s"
+	@echo "... src/email/email.o"
+	@echo "... src/email/email.i"
+	@echo "... src/email/email.s"
+	@echo "... src/email/smtp.o"
+	@echo "... src/email/smtp.i"
+	@echo "... src/email/smtp.s"
 	@echo "... src/env.o"
 	@echo "... src/env.i"
 	@echo "... src/env.s"
@@ -1564,9 +1672,6 @@ help:
 	@echo "... src/library.o"
 	@echo "... src/library.i"
 	@echo "... src/library.s"
-	@echo "... src/load_balance.o"
-	@echo "... src/load_balance.i"
-	@echo "... src/load_balance.s"
 	@echo "... src/log.o"
 	@echo "... src/log.i"
 	@echo "... src/log.s"
@@ -1597,12 +1702,18 @@ help:
 	@echo "... src/socket.o"
 	@echo "... src/socket.i"
 	@echo "... src/socket.s"
-	@echo "... src/socket_stream.o"
-	@echo "... src/socket_stream.i"
-	@echo "... src/socket_stream.s"
 	@echo "... src/stream.o"
 	@echo "... src/stream.i"
 	@echo "... src/stream.s"
+	@echo "... src/streams/load_balance.o"
+	@echo "... src/streams/load_balance.i"
+	@echo "... src/streams/load_balance.s"
+	@echo "... src/streams/socket_stream.o"
+	@echo "... src/streams/socket_stream.i"
+	@echo "... src/streams/socket_stream.s"
+	@echo "... src/streams/zlib_stream.o"
+	@echo "... src/streams/zlib_stream.i"
+	@echo "... src/streams/zlib_stream.s"
 	@echo "... src/tcp_server.o"
 	@echo "... src/tcp_server.i"
 	@echo "... src/tcp_server.s"
@@ -1627,9 +1738,6 @@ help:
 	@echo "... src/worker.o"
 	@echo "... src/worker.i"
 	@echo "... src/worker.s"
-	@echo "... src/zlib_stream.o"
-	@echo "... src/zlib_stream.i"
-	@echo "... src/zlib_stream.s"
 	@echo "... test/test_application.o"
 	@echo "... test/test_application.i"
 	@echo "... test/test_application.s"
